@@ -1,0 +1,167 @@
+body,.backg {
+        width: 100%;
+        height: 100%;
+        background-image: url(patrick-fore-hoxqcGUheeo-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    font-family: cursive;
+}
+.navbar {
+    height: 5rem;
+    background-color: #0c0404; 
+}
+
+.navbar .nav-link {
+    color: rgb(242, 241, 241) ;
+}
+
+.navbar-brand {
+    color: #fefcfc;
+    margin-left: 5px;
+    font-size: 1.5rem;
+}
+.welcome-message{
+font-size: 2em;
+color:rgba(241, 239, 241, 0.947);
+text-align:  center;
+opacity: 0;
+transform: translateY(-20px);
+animation: fadeInup 5s  forwards;
+}
+.small-message {
+    font-size: 1rem;
+    text-align: center;
+     opacity: 0;
+     color:rgba(239, 231, 239, 0.947);
+      animation: fadeInup 5s forwards;
+  }
+
+@keyframes fadeInup {
+0%{
+    opacity: 0;
+    transform: translateY(-20px);
+}
+100%{
+    opacity: 1;
+    transform: translateY(0);
+}
+    
+}
+
+.home-title {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 50px;
+    color: rgb(241, 231, 231);
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.features{
+    margin-top: 50PX;
+    color: #fefcfc;
+    height: 200px;
+}
+
+h3 {
+    color: #fefcfc;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+}
+
+
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.inventry {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.food {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    text-align: justify;
+}
+
+.fa-house-chimney {
+    margin: 3rem 0 5rem 5rem;
+    justify-content: center;
+}    
+
+.fa-cart-shopping {
+    margin: 3rem 0 5rem 5rem;
+    justify-content: center;
+}
+
+.fa-utensils {
+    margin: 3rem 0 5rem 5rem;
+    justify-content: center;
+}
+
+.fa-clock {
+    margin: 3rem 0 5rem 5rem;
+    justify-content: center;
+}
+
+.fa-calendar-days {
+    margin: 3rem 0 5rem 5rem; 
+    justify-content: center;
+}
+
+.food-inventry {
+    margin: auto;
+    display: flex;
+}
+
+
+footer {
+    padding: 0px;
+    background-color: #070705 ;
+    
+}
+
+.foter-panel {
+    color: #fefcfc;
+    text-align: center;
+    justify-content: center;
+}
+
+.social-media {
+    color: #fefcfc;
+    margin: 1rem 1rem 0.5rem 1rem;
+    opacity: 0.7;
+}
+
+.all-rights {
+    color: #fefcfc;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    opacity: 0.7;
+    margin-top: 1.5rem;
+}
+.log,p {
+    color: #fefcfc;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.log,a{
+    color: #179545;
+}
+
+
+

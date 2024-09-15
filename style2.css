@@ -1,0 +1,90 @@
+body,.center,.loginback{
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(pexels-skitterphoto-3706.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    padding-top: 10px;
+    
+}
+.login {
+    background-color: #faf7fa;
+    width: 350px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-out;
+
+  }
+  @keyframes fadeIn {
+    50% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .form-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-group label {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #77b4f4;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #02070a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #78b8fc;
+}
+.button1 {
+    margin:10px;
+    width: 250px;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #f5f4ec;
+}
+/*ABOUT US PAGE*/
